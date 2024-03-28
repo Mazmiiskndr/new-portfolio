@@ -12,7 +12,7 @@ export default function HomeLayout({
 }) {
   return (
     <Suspense fallback={<Loading />}>
-      <div className="overflow-auto scrollbar-hide">
+      <div className="">
         <Navbar />
         <main className="flex flex-col items-center w-full max-w-full mx-auto ">
           {children}

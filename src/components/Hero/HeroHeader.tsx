@@ -25,9 +25,11 @@ const HeroHeader: FC<HeroHeaderProps> = ({
         fontJost.className
       )}
     >
-      <h1 className="text-5xl lg:text-6xl font-bold text-center text-white lg:text-start titles">
-        <span className="text-[#ffd057]">{firstWord}</span>{" "}
-        <span className="text-white">{restOfTitleText}</span>.
+      <h1 className="text-5xl lg:text-6xl font-bold titles">
+        <span className="text-yellow-400 dark:text-yellow-500">
+          {firstWord}
+        </span>{" "}
+        <span className="text-white dark:text-black">{restOfTitleText}</span>
       </h1>
       <h4 className="text-xl md:text-2xl font-base text-default-600">
         I am{" "}
@@ -35,9 +37,7 @@ const HeroHeader: FC<HeroHeaderProps> = ({
           {subtitle}
         </span>
       </h4>
-      <div className="mt-5">
-        {children}
-      </div>
+      <div className="mt-5">{children}</div>
       <div className="flex gap-x-3">
         <Button
           radius="sm"

@@ -47,7 +47,7 @@ export const Navbar = () => {
       </NavbarContent>
       <NavbarContent className="flex basis-1/5 sm:basis-full" justify="end">
         <NavbarItem className="flex gap-2">
-          <Button
+          {/* <Button
             as={Link}
             href={`/sign-in`}
             color="default"
@@ -57,7 +57,7 @@ export const Navbar = () => {
           >
             Sign In
             <TbLogin2 size={20} />
-          </Button>
+          </Button> */}
 
           <ThemeSwitch />
         </NavbarItem>

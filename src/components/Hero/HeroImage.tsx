@@ -4,6 +4,7 @@ import { Skeleton } from "@nextui-org/react";
 import { useImageLoader } from "@/hooks/useImageLoader"; // Sesuaikan path
 import clsx from "clsx";
 import { fontJost } from "@/configs/fonts";
+import HeroExperienceBadge from "./HeroExperienceBadge";
 
 interface HeroImageProps {
   lightSrc: string;
@@ -25,16 +26,8 @@ const HeroImage: FC<HeroImageProps> = ({
 
   return (
     <div className={clsx("hero__body opacity-0", fontJost.className)}>
-      {/* TODO: KETIKA MOBILE HARUS DIATUR LAGI */}
-      <div className="flex m-0 w-[250px] h-[80px] items-center absolute top-[450px] -left-[85px] bg-white border border-black rounded-full text-black px-5 justify-center gap-x-3">
-        <p className="text-3xl font-bold ml-3">{yearOfExperience}</p>{" "}
-        <strong className="relative text-3xl font-bold mb-1 items-center justify-center text-[#ffd057]">
-          +
-        </strong>{" "}
-        <p className={clsx("text-base font-bold text-start leading-5")}>
-          YEAR OF <strong className="text-[#ffd057]">EXPERIENCE</strong>
-        </p>
-      </div>
+      <HeroExperienceBadge yearOfExperience={yearOfExperience} />
+      
       {loading && (
         <Skeleton className="flex rounded-full w-[600px] h-[650px]" />
       )}
@@ -45,9 +38,9 @@ const HeroImage: FC<HeroImageProps> = ({
           alt={alt}
           src={imageSrc}
           quality={100}
-          className={""}
-          onLoad={handleLoad}
+          className={"w-auto h-auto"}
           style={{ width: "auto", height: "auto" }}
+          onLoad={handleLoad}
           priority
         />
       )}
