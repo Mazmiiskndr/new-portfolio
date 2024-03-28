@@ -37,18 +37,18 @@ const HeroHeader: FC<HeroHeaderProps> = ({
           {subtitle}
         </span>
       </h4>
-      <div className="mt-5">{children}</div>
-      <div className="flex gap-x-3">
+      <div className="mt-5 text-base font-medium">{children}</div>
+      <div className="flex gap-x-3 mt-5">
         <Button
-          radius="sm"
-          color="primary"
+          radius="lg"
+          color="warning"
           size="md"
           startContent={<FaDownload />}
         >
           Download CV
         </Button>
         <Button
-          radius="sm"
+          radius="lg"
           color="default"
           size="md"
           startContent={<FaSquarePhone />}

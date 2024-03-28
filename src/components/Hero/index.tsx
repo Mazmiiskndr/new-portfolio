@@ -42,13 +42,18 @@ const Hero: FC<HeroProps> = ({}) => {
       <StarGrid />
       <div className="relative flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 gap-x-0 lg:gap-x-10 w-full lg:justify-between justify-center px-10 xl:px-16 items-center mt-10 lg:mt-0">
         <HeroHeader title="MOCH AZMI ISKANDAR" subtitle="Full Stack Engineer">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et sint
-          sequi praesentium aliquam optio error distinctio, quibusdam pariatur
-          ea necessitatibus illo minima architecto quos, dolorem ex animi illum,
-          deleniti consectetur! Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Et sint sequi praesentium aliquam optio error
-          distinctio, quibusdam pariatur ea necessitatibus illo minima
-          architecto quos, dolorem ex animi illum, deleniti consectetur!
+          My name is Moch Azmi Iskandar, a 23-year-old who holds a {"bachelor's"}
+          degree from Nusa Mandiri University. I majored in Information Systems
+          (IS). In 2022, I received a scholarship as a finalist in the Students
+          Competition of Innovation and Business. I am proficient in website
+          development and programming languages such as (HTML, CSS, Tailwind
+          CSS, JavaScript, TypeScript, ReactJS, NextJS, PHP, CodeIgniter,
+          Laravel, MySQL), and more. After obtaining my certification as a
+          Software Developer & Programmer in 2022, I have amassed total 5 years
+          of experience in Full Stack Development. This includes over 2 years of
+          professional work in the field, enhanced by 3 years of rich freelance
+          experience, continuously advancing and refining my skills in the
+          dynamic realm of technology.
         </HeroHeader>
         <HeroImage
           alt="My Image"
