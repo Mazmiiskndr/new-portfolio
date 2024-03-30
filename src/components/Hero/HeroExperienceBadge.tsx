@@ -10,7 +10,7 @@ const HeroExperienceBadge: FC<HeroExperienceBadgeProps> = ({
   yearOfExperience,
 }) => {
   return (
-    <div className="flex m-0 w-[250px] h-[80px] items-center absolute top-[450px] -left-[85px] bg-white border border-black rounded-full text-black px-5 justify-center gap-x-3">
+    <div className="flex m-0 w-[250px] h-[80px] items-center absolute top-[450px] -left-[85px] bg-white border border-black rounded-full text-black px-5 justify-center gap-x-3 z-20">
       <p className="text-3xl font-bold ml-3">{yearOfExperience}</p>{" "}
       <strong className="relative text-3xl font-bold mb-1 items-center justify-center text-yellow-400 dark:text-yellow-500">
         +

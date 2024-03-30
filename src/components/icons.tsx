@@ -238,9 +238,9 @@ export const VectorOne: React.FC<IconSvgProps> = (props) => {
           y2="197.911"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFC100" />
-          <stop offset="0.520264" stop-color="#796013" />
-          <stop offset="1" stop-color="#0F2C4C" />
+          <stop stopColor="#FFC100" />
+          <stop offset="0.520264" stopColor="#796013" />
+          <stop offset="1" stopColor="#0F2C4C" />
         </linearGradient>
       </defs>
     </svg>
@@ -257,7 +257,6 @@ export const VectorTwo: React.FC<IconSvgProps> = (props) => {
       viewBox="0 0 350 211"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      
       {...props}
     >
       <path
@@ -273,9 +272,9 @@ export const VectorTwo: React.FC<IconSvgProps> = (props) => {
           y2="232.18"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFC100" />
-          <stop offset="0.5" stop-color="#796013" />
-          <stop offset="1" stop-color="#0F2C4C" />
+          <stop stopColor="#FFC100" />
+          <stop offset="0.5" stopColor="#796013" />
+          <stop offset="1" stopColor="#0F2C4C" />
         </linearGradient>
       </defs>
     </svg>
@@ -307,8 +306,8 @@ export const VectorThree: React.FC<IconSvgProps> = (props) => {
           y2="340.039"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD974" />
-          <stop offset="0.520264" stop-color="#FFB147" stop-opacity="0.2" />
+          <stop stopColor="#FAD974" />
+          <stop offset="0.520264" stopColor="#FFB147" stop-opacity="0.2" />
         </linearGradient>
       </defs>
     </svg>
@@ -341,8 +340,8 @@ export const VectorFour: React.FC<IconSvgProps> = (props) => {
           y2="375.399"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A68521" />
-          <stop offset="1" stop-color="#FFB147" stop-opacity="0.33" />
+          <stop stopColor="#A68521" />
+          <stop offset="1" stopColor="#FFB147" stop-opacity="0.33" />
         </linearGradient>
       </defs>
     </svg>
@@ -667,7 +666,6 @@ export const ElementOne: React.FC<IconSvgProps> = (props) => {
   );
 };
 
-
 export const LineVertical: React.FC<IconSvgProps> = (props, stroke) => {
   const { width = 4, height = 131 } = props;
 
@@ -686,6 +684,229 @@ export const LineVertical: React.FC<IconSvgProps> = (props, stroke) => {
         d="M0.999994 0L1 131"
         fill="currentColor"
       />
+    </svg>
+  );
+};
+
+export const BgImage: React.FC<IconSvgProps> = (props, stroke) => {
+  const { width = 422, height = 334 } = props;
+
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 422 334"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <rect
+        x="56.5498"
+        y="97.6657"
+        width="3.99454"
+        height="3.99454"
+        fill="white"
+      />
+      <rect
+        x="36.9998"
+        y="97.6657"
+        width="3.99454"
+        height="3.99454"
+        fill="white"
+      />
+      <rect
+        x="79.1206"
+        y="97"
+        width="3.99454"
+        height="3.99454"
+        transform="rotate(30 79.1206 97)"
+        fill="white"
+      />
+      <rect
+        x="101.286"
+        y="97"
+        width="3.99454"
+        height="3.99454"
+        transform="rotate(60 101.286 97)"
+        fill="white"
+      />
+      <rect
+        x="56.5496"
+        y="116.438"
+        width="3.99454"
+        height="3.99454"
+        fill="white"
+      />
+      <rect
+        x="36.9995"
+        y="116.438"
+        width="3.99454"
+        height="3.99454"
+        fill="white"
+      />
+      <rect
+        x="79.1853"
+        y="115.772"
+        width="3.99454"
+        height="3.99454"
+        transform="rotate(30 79.1853 115.772)"
+        fill="white"
+      />
+      <rect
+        x="101.286"
+        y="115.772"
+        width="3.99454"
+        height="3.99454"
+        transform="rotate(60 101.286 115.772)"
+        fill="white"
+      />
+      <rect
+        x="56.5496"
+        y="135.209"
+        width="3.99454"
+        height="3.99454"
+        fill="white"
+      />
+      <rect
+        x="36.9995"
+        y="135.209"
+        width="3.99454"
+        height="3.99454"
+        fill="white"
+      />
+      <rect
+        x="79.1853"
+        y="134.543"
+        width="3.99454"
+        height="3.99454"
+        transform="rotate(30 79.1853 134.543)"
+        fill="white"
+      />
+      <rect
+        x="101.286"
+        y="134.543"
+        width="3.99454"
+        height="3.99454"
+        transform="rotate(60 101.286 134.543)"
+        fill="white"
+      />
+      <g filter="url(#filter0_d_1_378)">
+        <path
+          d="M6.01596 181.416C18.504 228.249 49.4394 268.059 92.0168 292.089C134.594 316.118 185.326 322.399 233.051 309.548C280.776 296.698 321.586 265.77 346.503 223.567C371.42 181.364 378.402 131.344 365.914 84.5112L185.965 132.963L6.01596 181.416Z"
+          fill="url(#paint0_linear_1_378)"
+        />
+      </g>
+      <mask
+        id="mask0_1_378"
+        maskUnits="userSpaceOnUse"
+        x="2"
+        y="-183"
+        width="367"
+        height="499"
+      >
+        <path
+          d="M9.51469 189.062C-15.1836 96.4375 24.8666 -154.777 120.377 -180.493C215.887 -206.21 338.267 2.0983 362.965 94.7228C387.663 187.347 330.259 283.282 234.748 308.999C137.517 335.923 34.2129 281.687 9.51469 189.062Z"
+          fill="#0F2C4C"
+        />
+      </mask>
+      <g mask="url(#mask0_1_378)"></g>
+      <g clip-path="url(#clip0_1_378)">
+        <path
+          d="M342.964 43.2605L341.33 38.4404C340.427 35.7783 338.327 33.6088 335.561 32.6712L330.741 31.0373C329.753 30.7024 329.753 29.3001 330.741 28.9653L335.561 27.3313C338.223 26.429 340.392 24.3283 341.33 21.5621L342.964 16.7421C343.299 15.7543 344.701 15.7545 345.036 16.7421L346.67 21.5621C347.572 24.2242 349.673 26.3937 352.439 27.3313L357.259 28.9653C358.247 29.3001 358.247 30.7025 357.259 31.0373L352.439 32.6712C349.777 33.5735 347.607 35.6742 346.67 38.4404L345.036 43.2605C344.701 44.2483 343.299 44.248 342.964 43.2605ZM334.499 30.0012L336.263 30.5991C339.557 31.7157 342.242 34.3151 343.402 37.738L344 39.5019L344.598 37.738C345.714 34.4439 348.314 31.7594 351.737 30.5991L353.5 30.0012L351.737 29.4033C348.442 28.2867 345.758 25.6873 344.598 22.2644L344 20.5005L343.402 22.2644C342.285 25.5585 339.686 28.243 336.263 29.4033L334.499 30.0012Z"
+          fill="black"
+        />
+      </g>
+      <g clip-path="url(#clip1_1_378)">
+        <path
+          d="M41.9638 43.2605L40.3298 38.4404C39.4274 35.7783 37.3268 33.6088 34.5606 32.6712L29.7405 31.0373C28.7528 30.7024 28.7529 29.3001 29.7405 28.9653L34.5606 27.3313C37.2227 26.429 39.3922 24.3283 40.3298 21.5621L41.9638 16.7421C42.2986 15.7543 43.701 15.7545 44.0358 16.7421L45.6697 21.5621C46.5721 24.2242 48.6727 26.3937 51.4389 27.3313L56.259 28.9653C57.2468 29.3001 57.2466 30.7025 56.259 31.0373L51.4389 32.6712C48.777 33.5735 46.6074 35.6742 45.6697 38.4404L44.0358 43.2605C43.7009 44.2483 42.2985 44.248 41.9638 43.2605ZM33.4991 30.0012L35.263 30.5991C38.5571 31.7157 41.2416 34.3151 42.4019 37.738L42.9998 39.5019L43.5977 37.738C44.7143 34.4439 47.3137 31.7594 50.7366 30.5991L52.5005 30.0012L50.7365 29.4033C47.4425 28.2867 44.758 25.6873 43.5977 22.2644L42.9998 20.5005L42.4018 22.2644C41.2852 25.5585 38.6859 28.243 35.263 29.4033L33.4991 30.0012Z"
+          fill="black"
+        />
+      </g>
+      <g clip-path="url(#clip2_1_378)">
+        <path
+          d="M25.1858 277.419L23.902 273.631C23.1929 271.54 21.5425 269.835 19.369 269.098L15.5818 267.815C14.8057 267.552 14.8058 266.45 15.5818 266.187L19.369 264.903C21.4606 264.194 23.1652 262.543 23.902 260.37L25.1858 256.583C25.4489 255.807 26.5507 255.807 26.8138 256.583L28.0976 260.37C28.8066 262.462 30.4571 264.166 32.6305 264.903L36.4178 266.187C37.1939 266.45 37.1937 267.552 36.4178 267.815L32.6305 269.098C30.539 269.807 28.8343 271.458 28.0976 273.631L26.8138 277.419C26.5507 278.195 25.4488 278.195 25.1858 277.419ZM18.5349 267.001L19.9209 267.47C22.5091 268.348 24.6183 270.39 25.53 273.08L25.9998 274.465L26.4696 273.08C27.3469 270.491 29.3893 268.382 32.0787 267.47L33.4646 267.001L32.0786 266.531C29.4905 265.653 27.3812 263.611 26.4695 260.922L25.9998 259.536L25.53 260.922C24.6526 263.51 22.6103 265.619 19.9209 266.531L18.5349 267.001Z"
+          fill="black"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_1_378"
+          x="0.0158691"
+          y="84.5112"
+          width="377.957"
+          height="248.564"
+          filterUnits="userSpaceOnUse"
+          colorInterpolationFilters="sRGB"
+        >
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feMorphology
+            radius="1"
+            operator="dilate"
+            in="SourceAlpha"
+            result="effect1_dropShadow_1_378"
+          />
+          <feOffset dy="11" />
+          <feGaussianBlur stdDeviation="2.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_1_378"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_1_378"
+            result="shape"
+          />
+        </filter>
+        <linearGradient
+          id="paint0_linear_1_378"
+          x1="7.25793"
+          y1="103.978"
+          x2="319.142"
+          y2="21.7379"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFC100" />
+          <stop offset="0.520264" stopColor="#796013" />
+          <stop offset="1" stopColor="#0F2C4C" />
+        </linearGradient>
+        <clipPath id="clip0_1_378">
+          <rect
+            width="28"
+            height="28"
+            fill="white"
+            transform="translate(330 16)"
+          />
+        </clipPath>
+        <clipPath id="clip1_1_378">
+          <rect
+            width="28"
+            height="28"
+            fill="white"
+            transform="translate(29 16)"
+          />
+        </clipPath>
+        <clipPath id="clip2_1_378">
+          <rect
+            width="22"
+            height="22"
+            fill="white"
+            transform="translate(15 256)"
+          />
+        </clipPath>
+      </defs>
     </svg>
   );
 };
