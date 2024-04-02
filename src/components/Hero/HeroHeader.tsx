@@ -19,25 +19,20 @@ const HeroHeader: FC<HeroHeaderProps> = ({
   const [firstWord, ...restOfTitle] = title.split(" ");
   const restOfTitleText = restOfTitle.join(" ");
   return (
-    <div
-      className={clsx(
-        "flex flex-col gap-y-3 max-w-2xl lg:max-w-3xl hero__heading opacity-0",
-        fontJost.className
-      )}
-    >
+    <div className={clsx("hero__heading relative mb-40 opacity-0", fontJost.className)}> 
       <h1 className="text-5xl lg:text-6xl font-bold titles">
         <span className="text-yellow-400 dark:text-yellow-500">
           {firstWord}
         </span>{" "}
         <span className="text-white dark:text-black">{restOfTitleText}</span>
       </h1>
-      <h4 className="text-xl md:text-2xl font-base text-default-600">
+      <h4 className="text-xl md:text-2xl mt-2 font-base text-default-600">
         I am{" "}
         <span className={clsx("text-3xl font-bold", fontCaveat.className)}>
           {subtitle}
         </span>
       </h4>
-      <div className="mt-5 text-base font-medium">{children}</div>
+      <div className="mt-10 text-base font-medium">{children}</div>
       <div className="flex gap-x-3 mt-5">
         <Button
           radius="lg"

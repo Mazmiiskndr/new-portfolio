@@ -38,11 +38,16 @@ const Hero: FC<HeroProps> = ({}) => {
   }, [currentTheme, mounted]);
 
   return (
-    <div ref={containerRef} className={clsx("relative w-full justify-between")}>
-      <StarGrid />
-      <div className="relative flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 gap-x-0 lg:gap-x-10 w-full lg:justify-between justify-center px-10 xl:px-16 items-center mt-10 lg:mt-0">
+    <div
+      ref={containerRef}
+      className={clsx(
+        "max-w-[85rem] min-h-[100vh] flex w-full relative m-auto items-center"
+      )}
+    >
+      <div className="w-full relative z-2 max-w-3xl">
         <HeroHeader title="MOCH AZMI ISKANDAR" subtitle="Full Stack Engineer">
-          My name is Moch Azmi Iskandar, a 23-year-old who holds a {"bachelor's"}
+          My name is Moch Azmi Iskandar, a 23-year-old who holds a{" "}
+          {"bachelor's"}
           degree from Nusa Mandiri University. I majored in Information Systems
           (IS). In 2022, I received a scholarship as a finalist in the Students
           Competition of Innovation and Business. I am proficient in website
@@ -55,19 +60,19 @@ const Hero: FC<HeroProps> = ({}) => {
           experience, continuously advancing and refining my skills in the
           dynamic realm of technology.
         </HeroHeader>
-        <HeroImage
+      </div>
+      <HeroImage
           alt="My Image"
           darkSrc="/assets/images/azmi-dark.png"
           lightSrc="/assets/images/azmi-light.png"
           yearOfExperience={5}
         />
-      </div>
-      <div className="hero__icon absolute right-6 top-72 lg:top-48 flex flex-col items-center h-full opacity-0">
+      {/* <div className="hero__icon absolute right-6 top-72 lg:top-48 flex flex-col items-center h-full opacity-0">
         <SocialIcons />
         <div className="justify-center">
           <LineVertical stroke={strokeColor} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
